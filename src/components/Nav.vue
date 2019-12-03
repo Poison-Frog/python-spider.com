@@ -13,7 +13,7 @@
             <div class="tab-item">
                 <router-link to="/test">反爬练习</router-link>
             </div>
-            <div class="tab-item">
+            <div class="tab-item long">
                 <router-link to="/electricity">电商模拟化（含开源代码）</router-link>
             </div>
             <div class="tab-item">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="search">
-            <div class="input"><input type="text" placeholder="请输入关键字进行搜索"></div>
+            <div class="input"><input type="text" placeholder=" 请输入关键字进行搜索"></div>
             <div class="img"><img src="../img/search.png"></div>
         </div>
     </div>
@@ -48,8 +48,9 @@ export default{
         display:flex;
         .tab-item{
             height:50px;
+            width:15%;
             line-height:50px;
-            flex:1;
+            flex-direction: row;
             text-align:center;
             &>a{
                 display: block;
@@ -63,6 +64,9 @@ export default{
                     background-color:#009688;
                 }
             }
+        }
+        .long{
+            width:25%;
         }
     }
     .search{
