@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <Nav></Nav>
-        首页
-    </div>
+<div>
+    <Nav></Nav>
+    电商模拟化
+</div>
 </template>
 <script>
 import Nav from '../components/Nav'
