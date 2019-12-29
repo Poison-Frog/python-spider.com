@@ -1,8 +1,8 @@
 <template>
-<div>
-    <Nav></Nav>
-    最新标讯
-</div>
+    <div>
+        <Nav></Nav>
+        最新标讯
+    </div>
 </template>
 <script>
 import Nav from '../components/Nav'
